@@ -8,7 +8,7 @@
 ==========================================================================="""
 
 def bmi(height,weight):
-	bmi = ((float(weight) / (height * height))*703)
+	bmi = round(((float(weight) / (height * height))*703),1)
 	if bmi < 18.5:
 		return str(bmi)+" : "+"underweight"
 	elif bmi >= 18.5 and bmi < 25.0:
@@ -22,6 +22,9 @@ def bmi(height,weight):
 	else:
 		return str(bmi)+" : "+"extreme obesity"
 
-#print bmi(76,195)
-#print bmi(66,195)
-#print bmi(80,140)
+print bmi(76,195)
+print bmi(66,195)
+print bmi(70,270)
+print bmi(80,140)
+print bmi(75,350)
+print bmi(67,190)
