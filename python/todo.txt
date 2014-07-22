@@ -1,0 +1,6 @@
+1.  round BMI
+2.  add frame calc
+3.  allow for non-entry of sex and frame
+4.  maybe another formula?
+5.  metric?
+6.  weight recommendations?
